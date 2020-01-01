@@ -1,0 +1,161 @@
+            @charset "UTF-8";
+
+#preview, #preview-lock, #preview-match {
+                border:1px #000 solid;
+                box-shadow:2px 3px 3px #444444;
+                height:80px;
+                width:80px;
+                float: left;
+                margin-right: 5px;
+                color: white;
+             
+                border-radius:3px;
+                -moz-border-radius:3px;
+                -webkit-border-radius:3px;
+            }
+
+            /*#matches {
+                border:1px #000 solid;
+                box-shadow:2px 3px 3px #444444;
+                height:24px;
+                width:24px;
+             
+                border-radius:3px;
+                -moz-border-radius:3px;
+                -webkit-border-radius:3px;
+
+            }*/
+
+            overflow {
+
+                overflow: hidden;
+            }
+
+            span.colorSwatch {
+                height: 15px;
+                width: 15px;
+                background-image: url(http://hueish.co/images/spacer-color.png);
+                background-position: top center;
+                background-repeat: no-repeat;
+                border: 1px solid #E1E1E1;
+                float: left;
+                margin-right: 5px;
+                margin-left: 0px;
+                margin-top: 0px;
+                text-decoration: none;
+            }
+            span.black {
+                background-color: #282828;
+            }
+			span.gray {
+                background-color: #888888;
+            }
+			span.white {
+                background-color: #ffffff;
+            }
+			span.brown {
+                background-color: #6c4b4b;
+            }
+			span.beige{
+                background-color: #beb896;
+            }
+			span.red {
+                background-color: #be0014;
+            }
+			span.pink {
+                background-color: #ffccce;
+            }
+			span.orange {
+                background-color: #ffa454;
+            }
+            span.yellow {
+                background-color: #faff96;
+            }
+			span.ivory {
+                background-color: #fcffdc;
+            }
+            span.green {
+                background-color: #00bf2d;
+            }			
+            span.blue {
+                background-color: #224976;
+            }
+            span.purple {
+                background-color: #a600e1;
+            }
+			span.gold {
+                background-color: #dce488;
+            }
+			span.silver {
+                background-color: #efefef;
+            }
+
+            body { padding-top: 60px; }
+
+            .navbar .nav > li a {
+                font-size:1.0em;
+                padding-top:2em;
+              }
+
+            .font-size-small {
+                font-size:0.8em;
+                padding-top:0.5em;
+            }    
+
+              .btn-file {
+                position: relative;
+                overflow: hidden;
+            }
+            .btn-file input[type=file] {
+                position: absolute;
+                top: 0;
+                right: 0;
+                min-width: 100%;
+                min-height: 100%;
+                font-size: 999px;
+                text-align: right;
+                filter: alpha(opacity=0);
+                opacity: 0;
+                background: red;
+                cursor: inherit;
+                display: block;
+            }
+
+#matches td:hover{
+    background-color: #ededed;
+}
+
+#matches a{
+    text-decoration: none;
+}
+
+.glyphicon-bell:before {
+  content: "🔔";
+}
+.glyphicon-bookmark:before {
+  content: "🔖";
+}
+.glyphicon-briefcase:before {
+  content: "💼";
+}
+.glyphicon-calendar:before {
+  content: "📅";
+}
+.glyphicon-camera:before {
+  content: "📷";
+}
+.glyphicon-fire:before {
+  content: "🔥";
+}
+.glyphicon-lock:before {
+  content: "🔒";
+}
+.glyphicon-paperclip:before {
+  content: "📎";
+}
+.glyphicon-pushpin:before {
+  content: "📌";
+}
+.glyphicon-wrench:before {
+  content: "🔧";
+}
